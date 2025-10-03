@@ -8,10 +8,6 @@ function whichNumberIsGreater(x, y) {
     return "Por favor ingresa solo números válidos.";
   }
 
-  if (x == " " || y == " ") {
-    return "Porfavor no deje vacio las peticiones";
-  }
-
   if (x === y) {
     return "Ambos números son iguales.";
   } else if (x > y) {
