@@ -1,10 +1,9 @@
-//Detectar si la letra ingresada es una vocal minuscula
+//Detectar si la letra ingresada es una vocal o no.
 
-var letter = prompt("Ingrese una letra: ");
+const letter = prompt("Ingrese una letra: ");
+const mensage = " es una vocal";
 
 function vocal(x) {
-  var mensage = " es una vocal";
-
   {
     switch (x) {
       case "a":
@@ -18,7 +17,7 @@ function vocal(x) {
       case "I":
       case "O":
       case "U":
-        return x + mensage + " mayuscyla";
+        return x + mensage + " mayuscula";
       default:
         return x + " no es una vocal";
     }
